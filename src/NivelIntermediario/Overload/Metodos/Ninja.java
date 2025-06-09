@@ -1,4 +1,4 @@
-package NivelIntermediario.Overload;
+package NivelIntermediario.Overload.Metodos;
 
 public abstract class Ninja implements EstrategiaDeBatalha {
 
@@ -11,8 +11,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
 
-    //TODO: Incluir novos 2 atributos: numeroDeMissoesConcluidas, Rank
-
     public Ninja() {
     }
 
@@ -23,7 +21,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.idade = idade;
     }
 
-    // TODO: Sobrecarga do construtor chamando os novos atributos
+    // TODO: Sobrecarga do construtor chamado os novos atributos
     // Sobrecarga de metodos voce nao precisa redeclarar o construtor so os novos atributos
     public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         this(nome, aldeia, idade);
@@ -40,7 +38,25 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     // Sobreescrevendo o metodo da interface
     @Override
     public void estrategiaDeBatalhaNinja() {
-        System.out.println( "Meu nome é: " + nome + " Essa é minha estrategia de combate");
+        System.out.println( "Meu nome é: " + nome + " Essa é minha ESTRATEGIA de combate");
+    }
+
+    // Inteligencia de combate - Metodo padrao
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é: " + nome + " Essa é minha INTELIGENCIA de combate");
+    }
+
+    // Inteligencia de combate -  Sobrecarga de metodo
+    public void inteligenciaDeCombate(int qi) {
+
+            if (qi > 150) {
+                System.out.println("Seu QI é: " + qi + " e voce é um genio");
+            } else if ( qi >= 130 ) {
+                System.out.println("Seu QI é: " + qi + " e voce é um ninja promissor");
+            } else {
+                System.out.println("Seu QI é: " + qi + " e voce precisa treinar mais suas estrategias");
+            }
+
     }
 
 
