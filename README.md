@@ -46,6 +46,10 @@ Este repositório contém exemplos e exercícios práticos dos principais tópic
 - [**Métodos Constantes**](./src/NivelIntermediario/MetodosConstantes): Explica o uso de métodos e atributos constantes (final/static) para valores imutáveis e comportamentos compartilhados.
 - [**Overload**](./src/NivelIntermediario/Overload): Demonstra como criar métodos com o mesmo nome, mas com diferentes parâmetros, aumentando a flexibilidade do código.
 - [**Polimorfismo**](./src/NivelIntermediario/Polimorfismo): Mostra como objetos podem assumir diferentes formas, permitindo o uso de uma interface comum para diferentes tipos de objetos.
+- [**ArrayNLists**](./src/NivelIntermediario/ArrayNLists): Explica a diferença entre Arrays e Lists em Java, abordando suas principais características, usos e limitações.
+- [**ENUMs**](./src/NivelIntermediario/ENUMs): Demonstra como utilizar tipos enumerados para representar conjuntos fixos de constantes, tornando o código mais legível e seguro.
+- [**Genericos**](./src/NivelIntermediario/Genericos): Ensina como criar classes, interfaces e métodos genéricos para trabalhar com diferentes tipos de dados de forma flexível e segura.
+- [**Records**](./src/NivelIntermediario/Records): Apresenta a estrutura de Records, utilizada para criar classes imutáveis de forma simples e concisa.
 
 ## 🏁 Primeiros Passos <a name = "getting_started"></a>
 
@@ -84,7 +88,7 @@ Não aplicável para este repositório de estudos.
 ## ⛏️ Tecnologias <a name = "built_using"></a>
 
 - [Java](https://www.java.com/) - Linguagem principal
-- [IntelLiJ IDEA](https://www.jetbrains.com/pt-br/idea) ou outra IDE de sua escolha
+- [IntelliJ IDEA](https://www.jetbrains.com/pt-br/idea) ou outra IDE de sua escolha
 
 ## ✍️ Autores <a name = "authors"></a>
 
