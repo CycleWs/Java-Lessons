@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=100px height=200px src="./logoJava.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Java Lessons</h3>
@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/CycleWs/Java-Lessons.svg)](https://github.com/CycleWs/Java-Lessons/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/CycleWs/Java-Lessons/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -23,12 +23,8 @@
 ## 📝 Sumário
 
 - [Sobre](#about)
-- [Primeiros Passos](#getting_started)
-- [Deploy](#deployment)
 - [Uso](#usage)
 - [Tecnologias](#built_using)
-- [TODO](../TODO.md)
-- [Contribuindo](../CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
 
@@ -51,10 +47,6 @@ Este repositório contém exemplos e exercícios práticos dos principais tópic
 - [**Genericos**](./src/NivelIntermediario/Genericos): Ensina como criar classes, interfaces e métodos genéricos para trabalhar com diferentes tipos de dados de forma flexível e segura.
 - [**Records**](./src/NivelIntermediario/Records): Apresenta a estrutura de Records, utilizada para criar classes imutáveis de forma simples e concisa.
 
-## 🏁 Primeiros Passos <a name = "getting_started"></a>
-
-Estas instruções vão te ajudar a rodar o projeto localmente para fins de estudo e testes. Veja [deploy](#deployment) para mais detalhes.
-
 ### Pré-requisitos
 
 - Java JDK instalado (recomendado versão 8 ou superior)
@@ -64,7 +56,7 @@ Estas instruções vão te ajudar a rodar o projeto localmente para fins de estu
 
 Clone o repositório:
 ```
-git clone https://github.com/seu-usuario/Java-Lessons.git
+git clone https://github.com/CycleWs/Java-Lessons.git
 ```
 
 Abra o projeto na sua IDE e explore os exemplos em cada pasta de nível.
@@ -80,10 +72,6 @@ java NomeDoArquivoTeste
 ## 🎈 Uso <a name="usage"></a>
 
 Explore os exemplos de cada tópico para entender a aplicação dos conceitos. Modifique e teste os códigos para fixar o aprendizado.
-
-## 🚀 Deploy <a name = "deployment"></a>
-
-Não aplicável para este repositório de estudos.
 
 ## ⛏️ Tecnologias <a name = "built_using"></a>
 
