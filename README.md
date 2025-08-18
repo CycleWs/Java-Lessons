@@ -34,9 +34,16 @@ Este repositório contém exemplos e exercícios práticos dos principais tópic
 
 ## Tópicos abordados:
 ### Nivel Iniciante:
-- [**Condições**](./src/NivelIniciante/condicoes/): Explica o uso de estruturas condicionais como `if`, `else` e `switch` para tomar decisões no fluxo do programa, permitindo executar diferentes blocos de código conforme determinadas condições.
+- [**Tipagem de dados**](./src/NivelIniciante/TipagemDeDados/):
+    - [**Dados Primitivos**](./src/NivelIniciante/TipagemDeDados/DadosPrimitivos.java): Explica sobre os tipos básicos da linguagem Java, como int, double, char e boolean. Eles armazenam valores simples diretamente na memória e não possuem métodos associados.
+    - [**Dados NÃO Primitivos**](./src/NivelIniciante/TipagemDeDados/DadosNaoPrimitivos.java): Também chamados de tipos de referência, incluem classes, arrays, strings e objetos. Eles armazenam referências para valores na memória e podem ter métodos e propriedades.
+- [**Condições**](./src/NivelIniciante/condicoes/):
+  - [**Ifs e Elses**](./src/NivelIniciante/condicoes/IfnElse.java):
+   Explica o uso de estruturas condicionais como `if` e `else` para tomar decisões no fluxo do programa, permitindo executar diferentes blocos de código conforme determinadas condições.
+  - [**Switch Case**](./src/NivelIniciante/condicoes/SwitchCase.java): Explica a estrutura condicional que permite comparar o valor de uma variável com vários casos possíveis, facilitando a escolha entre múltiplas opções de execução de código de forma mais organizada do que vários if-else.
+  - [**Ternários**](./src/NivelIniciante/condicoes/Ternarios.java): Fala um pouco sobre o operador ternário é uma forma compacta de escrever uma condição if-else em uma única linha, retornando um valor se a condição for verdadeira e outro se for falsa
 - [**Laços de Repetição**](./src/NivelIniciante/lacosRepeticao/): Aborda os principais tipos de laços (`for`, `while`, `do-while`) utilizados para repetir instruções diversas vezes, facilitando tarefas como percorrer listas, contar ou executar ações até que uma condição seja satisfeita.
-
+- [**Estrutura de dados basico**](./src/NivelIniciante/EstruturaDeDadosBasico/Arrays.java): Apresenta os conceitos iniciais sobre arrays em Java, mostrando como armazenar e manipular coleções de dados do mesmo tipo em uma estrutura indexada. É a base para entender como organizar e acessar múltiplos valores de forma eficiente.
 
  ### Nivel Intermediário:
 

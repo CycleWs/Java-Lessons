@@ -2,8 +2,14 @@ package NivelIniciante.condicoes;
 
 import java.util.Scanner;
 
-public class Estudo {
+public class SwitchCase {
     public static void main(String[] args) {
+        /* todo
+            Switch Case - Estrutura de Decisão
+            -
+            O switch case é uma estrutura de controle que permite selecionar uma ação com base no valor de uma variável.
+            É útil quando você tem várias condições para verificar um único valor.
+         */
 
         Scanner scanner = new Scanner(System.in);
 
