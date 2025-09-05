@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancasMultiplas;
 
 public class Uchiha extends Ninja implements SharinganInterface{
 

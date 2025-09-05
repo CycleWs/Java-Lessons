@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancasMultiplas;
 
 public interface SharinganInterface {
 

@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancasMultiplas;
 
 public class Hatake extends Ninja implements SharinganInterface,AnbuInterface{
 
